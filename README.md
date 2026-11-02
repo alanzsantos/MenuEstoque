@@ -1,10 +1,14 @@
 # MenuEstoque
 
-## DescriÁ„o
+## Descri√ß√£o
 
-MenuEstoque È uma aplicaÁ„o web desenvolvida em ASP.NET MVC com Entity Framework Core, voltada para o gerenciamento simples de produtos em estoque.
+MenuEstoque √© uma aplica√ß√£o web desenvolvida em ASP.NET MVC com Entity Framework Core, voltada para o gerenciamento simples de produtos em estoque.
 
-O projeto tem como objetivo demonstrar conceitos fundamentais de desenvolvimento back-end com .NET, incluindo CRUD, arquitetura em camadas e o uso do padr„o Repository.
+O projeto tem como objetivo demonstrar conceitos fundamentais de desenvolvimento back-end com .NET, incluindo CRUD, arquitetura em camadas e o uso do padr√£o Repository.
+
+<p align="center">
+  <img width="1672" height="941" alt="<img width="1421" height="752" alt="menuest" src="https://github.com/user-attachments/assets/4d15f61f-f3d5-4ecc-ba30-c63da2057837" />
+</p>
 
 ---
 
@@ -16,52 +20,52 @@ O projeto tem como objetivo demonstrar conceitos fundamentais de desenvolvimento
 ### Cadastro de novos produtos
 ![Cadastro](wwwroot/images/Cadastro_produtos.png)
 
-### EdiÁ„o de produtos existentes
-![EdiÁ„o de produto](wwwroot/images/Alterar.png)
+### Edi√ß√£o de produtos existentes
+![Edi√ß√£o de produto](wwwroot/images/Alterar.png)
 
-### Exclus„o de produtos
-![Exclus„o de produto](wwwroot/images/Excluir.png)
+### Exclus√£o de produtos
+![Exclus√£o de produto](wwwroot/images/Excluir.png)
 
-- AtualizaÁ„o din‚mica de dados via AJAX
+- Atualiza√ß√£o din√¢mica de dados via AJAX
 
 
 ---
 
 ## Arquitetura do Projeto
 
-O projeto segue o padr„o MVC (Model-View-Controller), garantindo separaÁ„o clara de responsabilidades.
+O projeto segue o padr√£o MVC (Model-View-Controller), garantindo separa√ß√£o clara de responsabilidades.
 
 ### Estrutura de camadas
 
 * Models:
-  ContÈm as entidades do sistema, como ProdutoModel.
+  Cont√©m as entidades do sistema, como ProdutoModel.
 
 * Data:
-  Respons·vel pelo contexto de banco de dados (BancoContext) utilizando Entity Framework Core.
+  Respons√°vel pelo contexto de banco de dados (BancoContext) utilizando Entity Framework Core.
 
 * Repositorio:
-  Implementa o padr„o Repository para abstraÁ„o do acesso a dados:
+  Implementa o padr√£o Repository para abstra√ß√£o do acesso a dados:
 
   * IProdutoRepositorio
   * ProdutoRepositorio
 
 * Controllers:
-  ContÈm o HomeController, respons·vel pelas operaÁıes de CRUD e comunicaÁ„o com o front-end.
+  Cont√©m o HomeController, respons√°vel pelas opera√ß√µes de CRUD e comunica√ß√£o com o front-end.
 
 * Views:
-  Interface do usu·rio construÌda com Razor.
+  Interface do usu√°rio constru√≠da com Razor.
 
 ---
 
-## Padr„o Repository
+## Padr√£o Repository
 
-O padr„o Repository foi aplicado com o objetivo de:
+O padr√£o Repository foi aplicado com o objetivo de:
 
 * Evitar acoplamento direto entre Controller e Entity Framework
 * Centralizar regras de acesso a dados
-* Facilitar manutenÁ„o e testes
+* Facilitar manuten√ß√£o e testes
 
-### MÈtodos implementados
+### M√©todos implementados
 
 * ListarTodos()
 * ObterPorId(int id)
@@ -85,23 +89,23 @@ O padr„o Repository foi aplicado com o objetivo de:
 
 ## Interface
 
-A interface foi desenvolvida com foco em simplicidade e usabilidade, utilizando CSS puro para estilizaÁ„o e JavaScript para comunicaÁ„o assÌncrona.
+A interface foi desenvolvida com foco em simplicidade e usabilidade, utilizando CSS puro para estiliza√ß√£o e JavaScript para comunica√ß√£o ass√≠ncrona.
 
 ---
 
 ## Como Executar o Projeto
 
-1. Clonar o repositÛrio
-2. Configurar a string de conex„o no arquivo appsettings.json
+1. Clonar o reposit√≥rio
+2. Configurar a string de conex√£o no arquivo appsettings.json
 3. Executar o projeto pelo Visual Studio
 
 ---
 
-## ObservaÁıes
+## Observa√ß√µes
 
-Este projeto n„o possui autenticaÁ„o ou controle de acesso, pois o foco est· na implementaÁ„o do CRUD e na organizaÁ„o do cÛdigo.
+Este projeto n√£o possui autentica√ß√£o ou controle de acesso, pois o foco est√° na implementa√ß√£o do CRUD e na organiza√ß√£o do c√≥digo.
 
-Em um cen·rio real, poderiam ser aplicadas soluÁıes como ASP.NET Identity ou autenticaÁ„o via JWT.
+Em um cen√°rio real, poderiam ser aplicadas solu√ß√µes como ASP.NET Identity ou autentica√ß√£o via JWT.
 
 ---
 
