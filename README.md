@@ -7,7 +7,7 @@ MenuEstoque é uma aplicação web desenvolvida em ASP.NET MVC com Entity Framew
 O projeto tem como objetivo demonstrar conceitos fundamentais de desenvolvimento back-end com .NET, incluindo CRUD, arquitetura em camadas e o uso do padrão Repository.
 
 <p align="center">
-  <img width="1672" height="941" alt="<img width="1421" height="752" alt="menuest" src="https://github.com/user-attachments/assets/4d15f61f-f3d5-4ecc-ba30-c63da2057837" />
+  <img width="1421" height="752" alt="<img width="1421" height="752" alt="menuest" src="https://github.com/user-attachments/assets/4d15f61f-f3d5-4ecc-ba30-c63da2057837" />
 </p>
 
 ---
